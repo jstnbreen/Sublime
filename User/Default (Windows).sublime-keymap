@@ -5,6 +5,11 @@
 		"args": {"setting": "word_wrap"}
 	},
 
+	// Toggle Sidebar
+	{
+		"keys": ["alt+q"], "command": "toggle_side_bar"
+	},
+
 	// Syntax Change
 	{
 		"keys": ["alt+shift+h"], "command": "set_file_type",
@@ -22,7 +27,7 @@
 	},
 
 	{
-		"keys": ["alt+shift+c"], "command": "set_file_type",
+		"keys": ["alt+shift+s"], "command": "set_file_type",
 		"args": {"syntax": "Packages/SCSS/SCSS.tmLanguage"}
 	},
 
