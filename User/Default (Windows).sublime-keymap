@@ -22,6 +22,11 @@
 	},
 
 	{
+		"keys": ["alt+shift+l"], "command": "set_file_type",
+		"args": {"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"}
+	},
+
+	{
 		"keys": ["alt+shift+c"], "command": "set_file_type",
 		"args": {"syntax": "Packages/CSS/CSS.tmLanguage"}
 	},
