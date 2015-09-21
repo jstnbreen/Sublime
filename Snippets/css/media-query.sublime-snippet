@@ -1,7 +1,7 @@
 <snippet>
 <content>
 <![CDATA[
-@media only screen and (${1:min}-width: ${2:320}px) {${3:}}
+@media only screen and (${1:min}-width: ${2:320}px) {$3}
 ]]>
 </content>
 
