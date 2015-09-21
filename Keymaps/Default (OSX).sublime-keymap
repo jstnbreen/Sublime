@@ -1,2 +1,43 @@
 [
+	// Word Wrap
+	{
+		"keys": ["alt+w"], "command": "toggle_setting",
+		"args": {"setting": "word_wrap"}
+	},
+
+	// Toggle Sidebar
+	{
+		"keys": ["alt+q"], "command": "toggle_side_bar"
+	},
+
+	// Syntax Change
+	{
+		"keys": ["alt+shift+h"], "command": "set_file_type",
+		"args": {"syntax": "Packages/HTML/HTML.tmLanguage"}
+	},
+
+	{
+		"keys": ["alt+shift+p"], "command": "set_file_type",
+		"args": {"syntax": "Packages/PHP/PHP.tmLanguage"}
+	},
+
+	{
+		"keys": ["alt+shift+l"], "command": "set_file_type",
+		"args": {"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"}
+	},
+
+	{
+		"keys": ["alt+shift+c"], "command": "set_file_type",
+		"args": {"syntax": "Packages/CSS/CSS.tmLanguage"}
+	},
+
+	{
+		"keys": ["alt+shift+s"], "command": "set_file_type",
+		"args": {"syntax": "Packages/SCSS/SCSS.tmLanguage"}
+	},
+
+	{
+		"keys": ["alt+shift+j"], "command": "set_file_type",
+		"args": {"syntax": "Packages/Javascript/JavaScript.tmLanguage"}
+	}
 ]
