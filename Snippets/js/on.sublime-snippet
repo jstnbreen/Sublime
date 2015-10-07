@@ -1,0 +1,11 @@
+<snippet>
+<content>
+<![CDATA[
+\$('$1').on('${2:click}', function() {$3});
+]]>
+</content>
+
+<tabTrigger>on</tabTrigger>
+
+<scope>source.js,source.js.embedded.html</scope>
+</snippet>
